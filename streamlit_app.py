@@ -31,7 +31,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 
 import snowflake.connector
-from urllib.error import URLError
+pip install -r requirements.txt
 
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
